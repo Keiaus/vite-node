@@ -1,5 +1,5 @@
 import 'dotenv/config';
-const Pool = require("pg").Pool;
+import { Pool } from 'pg';
 
 const pool = new Pool({
     user: process.env.PGUSER,
