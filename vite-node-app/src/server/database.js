@@ -1,4 +1,7 @@
-require('dotenv/config');
+"use strict";
+
+require('dotenv').config();
+const process = require("process");
 const { Pool } = require('pg');
 
 const pool = new Pool({
