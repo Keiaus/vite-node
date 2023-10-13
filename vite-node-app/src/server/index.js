@@ -76,5 +76,5 @@ app.delete("/users/:id", async(req, res) => {
 
 // Port number must be different from vite and postgres default
 app.listen(5222, () => {
-    console.log("server is running on port 5222");
+    console.log("Server is running on port 5222");
 })
